@@ -17,4 +17,13 @@ console.log(person["birthDate"]);
 console.log(person.hobbies [0]);
 console.log(person.hobbies [1]);
 console.log(person.hobbies [2]);
-console.log(person["cellphone"]);   
+console.log(person["cellphone"]); 
+
+//Actualiza el valor de un objeto  
+console.log("Actualiza el valor de un objeto");
+person.cellphone = "123456789";
+console.log(person.cellphone);
+//Agrega un nuevo atributo
+console.log("Agrega un nuevo atributo");
+person.email = "luan.pam@gmail.com";
+console.log(person.email);
