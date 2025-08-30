@@ -27,3 +27,53 @@ console.log(person.cellphone);
 console.log("Agrega un nuevo atributo");
 person.email = "luan.pam@gmail.com";
 console.log(person.email);
+//JSon
+let heroes = {
+    "squadName": "Super hero squad",
+    "homeTown": "Metro City",
+    "formed": 2016,
+    "secretBase": "Super tower",
+    "active": true,
+    "members": [
+      {
+        "name": "Molecule Man",
+        "age": 29,
+        "secretIdentity": "Dan Jukes",
+        "powers": [
+          "Radiation resistance",
+          "Turning tiny",
+          "Radiation blast"
+        ]
+      },
+      {
+        "name": "Madame Uppercut",
+        "age": 39,
+        "secretIdentity": "Jane Wilson",
+        "powers": [
+          "Million tonne punch",
+          "Damage resistance",
+          "Superhuman reflexes"
+        ]
+      },
+      {
+        "name": "Eternal Flame",
+        "age": 1000000,
+        "secretIdentity": "Unknown",
+        "powers": [
+          "Immortality",
+          "Heat Immunity",
+          "Inferno",
+          "Teleportation",
+          "Interdimensional travel"
+        ]
+      }
+    ]
+  };
+  console.log(heroes);
+  //RETO: accediendo al objeto postrar los siguientes valores: 
+  // -Damage resistance
+  // -Eternal Flame
+  // -Inferno
+  console.log(heroes.members[1].powers[1]);
+  console.log(heroes.members[2].name);
+  console.log(heroes.members[2].powers[2]);
